@@ -154,7 +154,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 214178.55828671841
+		update = 203433.21590393229
 		version = 1.2.2
 		WEIGHTS
 		{
@@ -1828,7 +1828,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 465697.45808848774
+		funds = 362337.45808848774
 	}
 	SCENARIO
 	{
@@ -1893,10 +1893,6 @@ GAME
 						flag = Squad/Flags/DD-Team
 					}
 				}
-				Escape
-				{
-					completedUnmanned = 214078.85199768192
-				}
 				Landing
 				{
 					completed = 440.23123413075484
@@ -1953,39 +1949,13 @@ GAME
 					}
 				}
 			}
-			Mun
-			{
-				reached = 214078.85199768192
-				Orbit
-				{
-					completedUnmanned = 214139.65828672951
-					vessel
-					{
-						name = Kerbal Sat Mk.I
-						flag = Squad/Flags/DD-Team
-					}
-				}
-				Suborbit
-				{
-					completedUnmanned = 214148.37828672494
-					vessel
-					{
-						name = Kerbal Sat Mk.I
-						flag = Squad/Flags/DD-Team
-					}
-				}
-				Flyby
-				{
-					completedUnmanned = 214078.85199768192
-				}
-			}
 		}
 	}
 	SCENARIO
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 25.4270172
+		sci = 16.4270172
 		Tech
 		{
 			id = start
@@ -3434,7 +3404,7 @@ GAME
 	{
 		name = Reputation
 		scene = 7, 8, 5, 6
-		rep = 244.482346
+		rep = 227.579193
 	}
 	SCENARIO
 	{
@@ -3616,7 +3586,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
-		UT = 214181.85828671861
+		UT = 203435.81590393092
 		activeVessel = 1
 		mapViewFiltering = 7167
 		commNetUIModeTracking = Network
@@ -4825,34 +4795,34 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 169413.17019522606
+			met = 158667.2078124384
 			lct = 44768.588091492536
-			lastUT = 214181.85828671861
+			lastUT = 203435.81590393092
 			root = 0
-			lat = -1.7963973817139722
-			lon = -116.66773575675927
-			alt = 2216786.6665053824
+			lat = -1.0718682056781565
+			lon = 66.351546234407721
+			alt = 13814716.258486606
 			hgt = -1
-			nrm = -0.995385349,-0.00643926859,0.0957432985
-			rot = 0.77929467,-0.239911556,0.437042356,0.379652917
-			CoM = -0.020701021,-0.71445322,-0.020701319
+			nrm = -0.990006089,-0.0679673404,0.123565972
+			rot = 0.373084009,-0.532377601,-0.621933997,-0.436555266
+			CoM = -0.0154169276,-0.659602046,-0.01541695
 			stg = 0
 			prst = False
 			ref = 0
 			ctrl = True
-			cPch = 0.194
-			cHdg = -2.868
+			cPch = 0
+			cHdg = 0
 			cMod = 0
 			ORBIT
 			{
-				SMA = 1314209.7475881898
-				ECC = 0.839492814689348
-				INC = 140.53990641408188
-				LPE = 3.4270675639754185
-				LAN = 130.29376844054661
-				MNA = 3.0730872800650477
-				EPH = 214162.23828671768
-				REF = 2
+				SMA = 13299960.080596555
+				ECC = 0.083817355980140701
+				INC = 177.66408803585634
+				LPE = 152.91633035218251
+				LAN = 287.60499702733972
+				MNA = 3.1367229328377997
+				EPH = 203435.81590393092
+				REF = 1
 			}
 			PART
 			{
@@ -4878,8 +4848,8 @@ GAME
 				attN = top, 6
 				mass = 0.100000001
 				shielded = False
-				temp = 216.70424884248345
-				tempExt = 214.45757667928342
+				temp = 250.39303497526151
+				tempExt = 249.50116176467375
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -4925,7 +4895,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = Idle
+					stateString = Running
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -5028,10 +4998,6 @@ GAME
 						0 = Flight,Kerbin
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
-						0 = Flyby,Mun
-						0 = Escape,Mun
-						0 = Orbit,Mun
-						0 = Suborbit,Mun
 					}
 					UPGRADESAPPLIED
 					{
@@ -5040,7 +5006,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9.9706011001817778
+					amount = 10
 					maxAmount = 10
 					flowState = True
 					isTweakable = True
@@ -5074,8 +5040,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 215.22204785506935
-				tempExt = 214.60878230715849
+				temp = 249.32427282368127
+				tempExt = 249.25372103167931
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5156,8 +5122,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 215.22199058540701
-				tempExt = 214.60860883455769
+				temp = 249.32424317340673
+				tempExt = 249.25354565624784
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5238,8 +5204,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 215.22204197716457
-				tempExt = 214.60863880910077
+				temp = 249.32434089142302
+				tempExt = 249.25357375512161
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5320,8 +5286,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 215.22244398662178
-				tempExt = 214.60883810542543
+				temp = 249.33511785335145
+				tempExt = 249.32835339938862
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5400,8 +5366,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0700000003
 				shielded = False
-				temp = 208.72623320365341
-				tempExt = 211.85140573632609
+				temp = 250.37224939074406
+				tempExt = 250.41660284735528
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5489,10 +5455,6 @@ GAME
 						0 = Flight,Kerbin
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
-						0 = Flyby,Mun
-						0 = Escape,Mun
-						0 = Orbit,Mun
-						0 = Suborbit,Mun
 					}
 					UPGRADESAPPLIED
 					{
@@ -5523,8 +5485,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.00999999978
 				shielded = False
-				temp = 210.12039336059433
-				tempExt = 209.99025447103656
+				temp = 248.45679299308
+				tempExt = 248.20326515071
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5546,7 +5508,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.41202200363909
+					amount = 200
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -5578,8 +5540,8 @@ GAME
 				attN = bottom01, 6
 				mass = 0.00999999978
 				shielded = False
-				temp = 205.44251312771067
-				tempExt = 206.88158246358881
+				temp = 248.4626478172793
+				tempExt = 247.44659809964142
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5636,8 +5598,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 215.19311235249472
-				tempExt = 214.59264722438149
+				temp = 249.8166371830105
+				tempExt = 249.4493372140154
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5725,8 +5687,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 215.16198316956053
-				tempExt = 214.5753860358312
+				temp = 250.25931486676475
+				tempExt = 249.77214494673782
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5816,8 +5778,8 @@ GAME
 				attN = bottom, 11
 				mass = 0.0625
 				shielded = False
-				temp = 217.6291364244625
-				tempExt = 217.13467999920266
+				temp = 250.65946875097529
+				tempExt = 250.18168725978106
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -5839,7 +5801,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 3.5399903365946854
+					amount = 28.893676918552117
 					maxAmount = 45
 					flowState = True
 					isTweakable = True
@@ -5850,7 +5812,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 4.3266524151365919
+					amount = 35.314493063401962
 					maxAmount = 55
 					flowState = True
 					isTweakable = True
@@ -5883,8 +5845,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.5
 				shielded = False
-				temp = 218.27385165262592
-				tempExt = 218.11325091112082
+				temp = 250.75721419673499
+				tempExt = 250.27717009844571
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -5987,7 +5949,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0.094779782
+					animState = 0.00612060726
 					stagingEnabled = True
 					EVENTS
 					{
@@ -6084,9 +6046,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0
-				yaw = 0
-				roll = 0
+				pitch = 0.139477164
+				yaw = -0.168192819
+				roll = -0.0178772677
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -7248,14 +7210,6 @@ GAME
 	MESSAGESYSTEM
 	{
 		flash = True
-		MESSAGE
-		{
-			title = World First Milestones
-			message = The recent accomplishments of our space program have attracted contributions from numerous organizations!~n~nWe have initiated the first fly by of the Mun.~n<color=#b4d455><sprite=2 tint=1>  26,000 </color><color=#6dcff6><sprite=1 tint=1> 2 </color><color=#e0d503><sprite=0 tint=1> 4 </color>~n~nWe have escaped the gravitational influence of Kerbin.~n<color=#b4d455><sprite=2 tint=1>  26,400 </color><color=#6dcff6><sprite=1 tint=1> 3 </color><color=#e0d503><sprite=0 tint=1> 5 </color>~n~nWe have entered orbit of the Mun.~n<color=#b4d455><sprite=2 tint=1>  24,960 </color><color=#6dcff6><sprite=1 tint=1> 2 </color><color=#e0d503><sprite=0 tint=1> 4 </color>~n~nWe have entered into suborbital spaceflight above the Mun.~n<color=#b4d455><sprite=2 tint=1>  26,000 </color><color=#6dcff6><sprite=1 tint=1> 2 </color><color=#e0d503><sprite=0 tint=1> 4 </color>~n
-			color = 3
-			icon = 6
-			read = False
-		}
 		MESSAGE
 		{
 			title = Contract Complete
